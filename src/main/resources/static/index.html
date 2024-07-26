@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Mensagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicativo de Mensagens</h1>
+        <form id="messageForm">
+            <input type="text" id="messageText" placeholder="Digite sua mensagem" required />
+            <input type="number" id="latitude" placeholder="Latitude" step="any" required />
+            <input type="number" id="longitude" placeholder="Longitude" step="any" required />
+            <button type="submit">Adicionar Mensagem</button>
+        </form>
+        <h2>Mensagens</h2>
+        <ul id="messagesList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
